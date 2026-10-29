@@ -1,0 +1,15 @@
+{
+  "name": "solar-shading-simulator",
+  "version": "1.0.0",
+  "description": "Interactive solar shading and daylighting simulator for façade design (NOAA solar position, geometric shading, daylight factor, solar heat gain).",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node tests/run-tests.mjs",
+    "check": "node tests/run-tests.mjs && node scripts/build.mjs",
+    "serve": "npx --yes serve ."
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
